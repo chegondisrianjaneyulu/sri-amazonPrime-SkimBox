@@ -1,0 +1,33 @@
+.video-container{
+    display: inline;
+    width:20px;
+    height:20px;
+}
+.tumbnail{
+    width:200px;
+    height:120px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+@media (min-width:767px) {
+    .thumbnail{
+        width:254px;
+        height:170px
+    }
+}
+.popup-content{
+    width:750px;
+    height:460px;
+    background-color: #ffffff;
+    border:16px;
+}
+.modal-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    align-self: flex-end;
+    margin-bottom: 10px;
+}
