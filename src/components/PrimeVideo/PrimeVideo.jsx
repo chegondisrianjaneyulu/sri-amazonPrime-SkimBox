@@ -16,6 +16,7 @@ export default function PrimeVideo(props) {
     <div className='main-container'>
         <img className='image' src="https://assets.ccbp.in/frontend/react-js/prime-video-img.png"/>
     <div className='content-container'>
+    <h1 className='heading'>Sri</h1>
      <h4 className='heading'>Action Movies</h4>
         <Carousels movies={actionMovies}/>
     <h4 className='heading'>Comedy Movies</h4>
